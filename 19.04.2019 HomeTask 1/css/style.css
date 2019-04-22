@@ -1,0 +1,69 @@
+
+li{
+    list-style: none;
+    width: 110px;
+    height: 40px;
+    background: rgb(40, 148, 107);
+    border-right: 2px solid #ababab;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    box-sizing: border-box;
+    padding: 3px;
+    
+}
+li:hover{
+    background: rgb(28, 102, 74);
+    cursor: pointer;
+}
+.shuffle{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color:white;
+    background: gold;
+    transition: 0.3s linear;
+}
+.shuffle:hover{
+    background: rgb(190, 162, 3);
+}
+.asc{
+    width: 60px;
+    height: 40px;
+    border: none;
+    color: white;
+    background: rgb(199, 7, 7);
+    margin-left: 15px;
+    transition: 0.3s linear;
+
+}
+.asc:hover{
+    background: rgb(136, 3, 3);
+}
+.desc{
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+    background: rgb(199, 7, 7);
+    transition: 0.3s linear;
+}
+.desc:hover{
+    background: rgb(136, 3, 3);
+}
+.no{
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.486);
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.active{
+    background:  teal;
+}
